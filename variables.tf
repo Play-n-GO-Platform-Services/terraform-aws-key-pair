@@ -67,3 +67,9 @@ variable "chmod_command" {
   default     = "chmod 600 %v"
   description = "Template of the command executed on the private key file"
 }
+
+variable "enabled" {
+  type = bool
+  description = "Flag to decide whether to create module resources or not"
+  default = false
+}
