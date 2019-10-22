@@ -6,6 +6,6 @@ stage = "test"
 
 name = "aws-key-pair"
 
-ssh_public_key_path = "/secrets"
+ssh_public_key_path = "~/secrets/spark"
 
 generate_ssh_key = true
